@@ -1,5 +1,5 @@
 
-var pinyin = {
+module.exports = {
     mfkdb: [
         ['A', '阿啊吖嗄腌锕'],
         ['Ai', '埃挨哎唉哀皑癌蔼矮艾碍爱隘捱嗳嗌嫒瑷暧砹锿霭'],
@@ -441,5 +441,5 @@ var pinyin = {
 }
 //使用方法（1）：pinyin.go('汉字'); //例：张家界 ZhangJiaJie (首字大写)
 //使用方法（2）：pinyin.go('汉字',1);//例：张家界 zhangjiajie (全小写)
-var s = pinyin.go("薇赵俪");
-alert (s);
+// var s = pinyin.go("薇赵俪");
+// alert (s);
